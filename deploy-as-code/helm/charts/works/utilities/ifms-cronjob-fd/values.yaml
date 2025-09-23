@@ -3,7 +3,7 @@ labels:
   app: "ifms-cronjob-fd"
   group: "works"
 
-namespace: works
+namespace: [ works, staging ]
 
 cron:
   schedule: "15 10 * * *"
